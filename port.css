@@ -13,7 +13,7 @@ body {
     background-color: #222;
 }
 
-/* ===== Navbar ===== */
+ /* Navbar */
 .navbar {
     background-color: #000000 !important;
     padding: 20px 0;
@@ -77,7 +77,7 @@ body {
     50% { border-color: #333; }
 }
 
-/* ===== Hero Section ===== */
+/* Hero Section */
 .hero-section {
     min-height: calc(100vh - 86px);
     background: #222;
@@ -151,7 +151,6 @@ body {
     display: inline-block;
 }
 
-.btn-custom.active,
 .btn-custom:hover {
     background-color: #007ced;
     border-color: #007ced;
@@ -179,7 +178,7 @@ body {
     color: #ffff;
 }
 
-/* ===== About Section ===== */
+/* About Section */
 #about {
     background-color: #1a1a1a;
     padding: 80px 0;
@@ -338,7 +337,7 @@ body {
     color: #fff;
 }
 
-/* ===== Projects Section ===== */
+/* Projects Section */
 .projects-page {
     background: #222;
     padding: 80px 0;
@@ -440,7 +439,7 @@ body {
     padding-bottom: 10px;
 }
 
-/* ----- Updated Progress Bars ----- */
+/* Updated Progress Bars */
 .skill-list {
     list-style: none;
     padding: 0;
@@ -486,20 +485,18 @@ body {
     animation: fillBar 1.5s ease-out forwards, moveStripes 1s linear infinite;
 }
 
-/* Fill animation – uses the --value variable from HTML */
 @keyframes fillBar {
     from { width: 0; }
     to { width: calc(var(--value) * 1%); }
 }
 
-/* Optional stripe movement */
 @keyframes moveStripes {
     from { background-position: 0 0; }
     to { background-position: 40px 0; }
 }
-/* ----- End of Updated Progress Bars ----- */
 
-/* ===== Contact Section ===== */
+
+/* Contact Section */
 .contact-page {
     background: #222;
     padding: 80px 0;
@@ -553,7 +550,7 @@ body {
     border-color: #3a3a3a;
 }
 
-/* ===== Footer ===== */
+/* Footer */
 .footer {
     background-color: #1a1a1a;
     padding: 30px 0;
@@ -578,7 +575,6 @@ body {
     transform: rotate(360deg);
 }
 
-/* ===== Responsive Tweaks ===== */
 @media (max-width: 768px) {
     .hero-pic {
         width: 250px;
@@ -597,4 +593,5 @@ body {
     .profile-card {
         padding: 25px;
     }
+
 }
